@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC68AE1E1DD6A1B30056F460 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC68AE1D1DD6A1B30056F460 /* AppDelegate.m */; };
+		EC68AE211DD6A1B30056F460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC68AE201DD6A1B30056F460 /* main.m */; };
+		EC68AE231DD6A1B30056F460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC68AE221DD6A1B30056F460 /* Assets.xcassets */; };
+		EC68AE261DD6A1B30056F460 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC68AE241DD6A1B30056F460 /* MainMenu.xib */; };
+		EC68AE311DD6A1B30056F460 /* _____API___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC68AE301DD6A1B30056F460 /* _____API___Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC68AE2D1DD6A1B30056F460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC68AE111DD6A1B30056F460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC68AE181DD6A1B30056F460;
+			remoteInfo = "并发编程：API及挑战";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC68AE191DD6A1B30056F460 /* 并发编程：API及挑战.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "并发编程：API及挑战.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC68AE1C1DD6A1B30056F460 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC68AE1D1DD6A1B30056F460 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC68AE201DD6A1B30056F460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC68AE221DD6A1B30056F460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC68AE251DD6A1B30056F460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EC68AE271DD6A1B30056F460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC68AE2C1DD6A1B30056F460 /* 并发编程：API及挑战Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "并发编程：API及挑战Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC68AE301DD6A1B30056F460 /* _____API___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____API___Tests.m"; sourceTree = "<group>"; };
+		EC68AE321DD6A1B30056F460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC68AE161DD6A1B30056F460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC68AE291DD6A1B30056F460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC68AE101DD6A1B30056F460 = {
+			isa = PBXGroup;
+			children = (
+				EC68AE1B1DD6A1B30056F460 /* 并发编程：API及挑战 */,
+				EC68AE2F1DD6A1B30056F460 /* 并发编程：API及挑战Tests */,
+				EC68AE1A1DD6A1B30056F460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC68AE1A1DD6A1B30056F460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC68AE191DD6A1B30056F460 /* 并发编程：API及挑战.app */,
+				EC68AE2C1DD6A1B30056F460 /* 并发编程：API及挑战Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC68AE1B1DD6A1B30056F460 /* 并发编程：API及挑战 */ = {
+			isa = PBXGroup;
+			children = (
+				EC68AE1C1DD6A1B30056F460 /* AppDelegate.h */,
+				EC68AE1D1DD6A1B30056F460 /* AppDelegate.m */,
+				EC68AE221DD6A1B30056F460 /* Assets.xcassets */,
+				EC68AE241DD6A1B30056F460 /* MainMenu.xib */,
+				EC68AE271DD6A1B30056F460 /* Info.plist */,
+				EC68AE1F1DD6A1B30056F460 /* Supporting Files */,
+			);
+			path = "并发编程：API及挑战";
+			sourceTree = "<group>";
+		};
+		EC68AE1F1DD6A1B30056F460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC68AE201DD6A1B30056F460 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC68AE2F1DD6A1B30056F460 /* 并发编程：API及挑战Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC68AE301DD6A1B30056F460 /* _____API___Tests.m */,
+				EC68AE321DD6A1B30056F460 /* Info.plist */,
+			);
+			path = "并发编程：API及挑战Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC68AE181DD6A1B30056F460 /* 并发编程：API及挑战 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC68AE351DD6A1B30056F460 /* Build configuration list for PBXNativeTarget "并发编程：API及挑战" */;
+			buildPhases = (
+				EC68AE151DD6A1B30056F460 /* Sources */,
+				EC68AE161DD6A1B30056F460 /* Frameworks */,
+				EC68AE171DD6A1B30056F460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "并发编程：API及挑战";
+			productName = "并发编程：API及挑战";
+			productReference = EC68AE191DD6A1B30056F460 /* 并发编程：API及挑战.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC68AE2B1DD6A1B30056F460 /* 并发编程：API及挑战Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC68AE381DD6A1B30056F460 /* Build configuration list for PBXNativeTarget "并发编程：API及挑战Tests" */;
+			buildPhases = (
+				EC68AE281DD6A1B30056F460 /* Sources */,
+				EC68AE291DD6A1B30056F460 /* Frameworks */,
+				EC68AE2A1DD6A1B30056F460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC68AE2E1DD6A1B30056F460 /* PBXTargetDependency */,
+			);
+			name = "并发编程：API及挑战Tests";
+			productName = "并发编程：API及挑战Tests";
+			productReference = EC68AE2C1DD6A1B30056F460 /* 并发编程：API及挑战Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC68AE111DD6A1B30056F460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = tangyuhua;
+				TargetAttributes = {
+					EC68AE181DD6A1B30056F460 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8Y89LE8P2N;
+						ProvisioningStyle = Automatic;
+					};
+					EC68AE2B1DD6A1B30056F460 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8Y89LE8P2N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC68AE181DD6A1B30056F460;
+					};
+				};
+			};
+			buildConfigurationList = EC68AE141DD6A1B30056F460 /* Build configuration list for PBXProject "并发编程：API及挑战" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC68AE101DD6A1B30056F460;
+			productRefGroup = EC68AE1A1DD6A1B30056F460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC68AE181DD6A1B30056F460 /* 并发编程：API及挑战 */,
+				EC68AE2B1DD6A1B30056F460 /* 并发编程：API及挑战Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC68AE171DD6A1B30056F460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC68AE231DD6A1B30056F460 /* Assets.xcassets in Resources */,
+				EC68AE261DD6A1B30056F460 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC68AE2A1DD6A1B30056F460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC68AE151DD6A1B30056F460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC68AE211DD6A1B30056F460 /* main.m in Sources */,
+				EC68AE1E1DD6A1B30056F460 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC68AE281DD6A1B30056F460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC68AE311DD6A1B30056F460 /* _____API___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC68AE2E1DD6A1B30056F460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC68AE181DD6A1B30056F460 /* 并发编程：API及挑战 */;
+			targetProxy = EC68AE2D1DD6A1B30056F460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC68AE241DD6A1B30056F460 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC68AE251DD6A1B30056F460 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC68AE331DD6A1B30056F460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC68AE341DD6A1B30056F460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC68AE361DD6A1B30056F460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8Y89LE8P2N;
+				INFOPLIST_FILE = "并发编程：API及挑战/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangyuhua.com.-----API---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC68AE371DD6A1B30056F460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8Y89LE8P2N;
+				INFOPLIST_FILE = "并发编程：API及挑战/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangyuhua.com.-----API---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC68AE391DD6A1B30056F460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8Y89LE8P2N;
+				INFOPLIST_FILE = "并发编程：API及挑战Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangyuhua.com.-----API---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/并发编程：API及挑战.app/Contents/MacOS/并发编程：API及挑战";
+			};
+			name = Debug;
+		};
+		EC68AE3A1DD6A1B30056F460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8Y89LE8P2N;
+				INFOPLIST_FILE = "并发编程：API及挑战Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangyuhua.com.-----API---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/并发编程：API及挑战.app/Contents/MacOS/并发编程：API及挑战";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC68AE141DD6A1B30056F460 /* Build configuration list for PBXProject "并发编程：API及挑战" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC68AE331DD6A1B30056F460 /* Debug */,
+				EC68AE341DD6A1B30056F460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC68AE351DD6A1B30056F460 /* Build configuration list for PBXNativeTarget "并发编程：API及挑战" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC68AE361DD6A1B30056F460 /* Debug */,
+				EC68AE371DD6A1B30056F460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC68AE381DD6A1B30056F460 /* Build configuration list for PBXNativeTarget "并发编程：API及挑战Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC68AE391DD6A1B30056F460 /* Debug */,
+				EC68AE3A1DD6A1B30056F460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC68AE111DD6A1B30056F460 /* Project object */;
+}
