@@ -12,6 +12,11 @@
 		EC68AE231DD6A1B30056F460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC68AE221DD6A1B30056F460 /* Assets.xcassets */; };
 		EC68AE261DD6A1B30056F460 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC68AE241DD6A1B30056F460 /* MainMenu.xib */; };
 		EC68AE311DD6A1B30056F460 /* _____API___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC68AE301DD6A1B30056F460 /* _____API___Tests.m */; };
+		EC68AE3D1DD6A3030056F460 /* pthreadTest.c in Sources */ = {isa = PBXBuildFile; fileRef = EC68AE3B1DD6A3030056F460 /* pthreadTest.c */; };
+		EC68AE421DD6E7A80056F460 /* FindMinMaxThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EC68AE411DD6E7A80056F460 /* FindMinMaxThread.m */; };
+		EC68AE441DD6E7CB0056F460 /* myPthreadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EC68AE431DD6E7CB0056F460 /* myPthreadTest.m */; };
+		EC68AE721DD6F5FE0056F460 /* MyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EC68AE711DD6F5FE0056F460 /* MyOperation.m */; };
+		EC68AE751DD7411C0056F460 /* threadLock.c in Sources */ = {isa = PBXBuildFile; fileRef = EC68AE731DD7411C0056F460 /* threadLock.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,15 @@
 		EC68AE2C1DD6A1B30056F460 /* 并发编程：API及挑战Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "并发编程：API及挑战Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC68AE301DD6A1B30056F460 /* _____API___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____API___Tests.m"; sourceTree = "<group>"; };
 		EC68AE321DD6A1B30056F460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC68AE3B1DD6A3030056F460 /* pthreadTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pthreadTest.c; sourceTree = "<group>"; };
+		EC68AE3C1DD6A3030056F460 /* pthreadTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pthreadTest.h; sourceTree = "<group>"; };
+		EC68AE401DD6E7A80056F460 /* FindMinMaxThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindMinMaxThread.h; sourceTree = "<group>"; };
+		EC68AE411DD6E7A80056F460 /* FindMinMaxThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindMinMaxThread.m; sourceTree = "<group>"; };
+		EC68AE431DD6E7CB0056F460 /* myPthreadTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPthreadTest.m; sourceTree = "<group>"; };
+		EC68AE701DD6F5FE0056F460 /* MyOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOperation.h; sourceTree = "<group>"; };
+		EC68AE711DD6F5FE0056F460 /* MyOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOperation.m; sourceTree = "<group>"; };
+		EC68AE731DD7411C0056F460 /* threadLock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = threadLock.c; sourceTree = "<group>"; };
+		EC68AE741DD7411C0056F460 /* threadLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threadLock.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				EC68AE201DD6A1B30056F460 /* main.m */,
+				EC68AE701DD6F5FE0056F460 /* MyOperation.h */,
+				EC68AE711DD6F5FE0056F460 /* MyOperation.m */,
+				EC68AE401DD6E7A80056F460 /* FindMinMaxThread.h */,
+				EC68AE411DD6E7A80056F460 /* FindMinMaxThread.m */,
+				EC68AE3C1DD6A3030056F460 /* pthreadTest.h */,
+				EC68AE3B1DD6A3030056F460 /* pthreadTest.c */,
+				EC68AE731DD7411C0056F460 /* threadLock.c */,
+				EC68AE741DD7411C0056F460 /* threadLock.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -98,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				EC68AE301DD6A1B30056F460 /* _____API___Tests.m */,
+				EC68AE431DD6E7CB0056F460 /* myPthreadTest.m */,
 				EC68AE321DD6A1B30056F460 /* Info.plist */,
 			);
 			path = "并发编程：API及挑战Tests";
@@ -206,7 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC68AE421DD6E7A80056F460 /* FindMinMaxThread.m in Sources */,
+				EC68AE3D1DD6A3030056F460 /* pthreadTest.c in Sources */,
 				EC68AE211DD6A1B30056F460 /* main.m in Sources */,
+				EC68AE721DD6F5FE0056F460 /* MyOperation.m in Sources */,
+				EC68AE751DD7411C0056F460 /* threadLock.c in Sources */,
 				EC68AE1E1DD6A1B30056F460 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC68AE441DD6E7CB0056F460 /* myPthreadTest.m in Sources */,
 				EC68AE311DD6A1B30056F460 /* _____API___Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
